@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [Rufina-Regular.ttf.ttx, Rufina-Bold.ttf.ttx, src/Rufina-Regular.otf.ttx,
+  src/Rufina-Bold.otf.ttx, src/Rufina-Regular-TTF.sfd, src/Rufina-Bold-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
